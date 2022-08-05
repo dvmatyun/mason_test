@@ -1,0 +1,20 @@
+# Register bricks which can be consumed via the Mason CLI.
+# https://github.com/felangel/mason
+bricks:
+  # Sample Brick
+  # Run `mason make hello` to try it out.
+  hello: 0.1.0+1
+
+  model_json:
+    path: bricks\model_json
+  citya_core:
+    path: bricks\citya_core
+  citya_api_client:
+    path: bricks\citya_api_client  
+  # Bricks can also be imported via git url.
+  # Uncomment the following lines to import
+  # a brick from a remote git url.
+  # widget:
+  #   git:
+  #     url: https://github.com/felangel/mason.git
+  #     path: bricks/widget
